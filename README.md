@@ -70,6 +70,17 @@ Docker Compose
 Kubernetes
 
 
+## Running
 
+In the root directory, type this in the terminal:
+    `docker build .`
+Grab the ID that is outputted in the console and use it in this command (replace id):
+    `docker run -p 3000:3000 id`
+Open the browser and go to port 3000.
 
+## Terminating
 
+Open a new terminal:
+    `docker ps`
+Grab the name you get and use it in the next command
+    `docker stop name`
