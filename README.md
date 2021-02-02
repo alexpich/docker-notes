@@ -13,7 +13,7 @@ Different development and production environments:
 We want to build and test in exactly the same environment as we later run our app in.
 
 Different development environments within a team/company:
-Every team meber should have exactly the same environment when working on the same project.
+Every team member should have exactly the same environment when working on the same project.
 
 Clashing Tools/Versions between different projects:
 When switching between projects, tools used in project A should not clash with tools used in project B.
@@ -84,3 +84,7 @@ Open a new terminal:
     `docker ps`
 Grab the name you get and use it in the next command
     `docker stop name`
+
+## Using and Running External Images
+Example:
+    `docker run node`
